@@ -18,16 +18,16 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ### Task 1: Setup
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm run dev`
-- [ ] Implement the project on the `main` branch, committing changes regularly.
+- [ X ] Create a forked copy of this project.
+- [ X ] Clone your OWN version of the repository in your terminal
+- [ X ] Download project dependencies by running `npm install`
+- [ X ] Start up the app using `npm run dev`
+- [ X ] Implement the project on the `main` branch, committing changes regularly.
 - [ ] Push commits: `git push origin main`.
 
 ### Task 2: Planning
 
-- [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
+- [ X ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
 - [ ] Once you have a design plan in mind, break down the designs into individual components.
 - [ ] Plan which components will hold state, what data each needs from props (if any), and where you will make your data fetch.
 
@@ -38,8 +38,8 @@ This is a really fun project, and one to show your family and friends when you'v
 
 ## Task 4: Fetching the data
 
-- [ ] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
-- [ ] Add an effect hook to handle the API call side effect after the first render of App.
+- [  ] Inside `frontend/components/App.js` add state for the data you'll get from NASA.
+- [ ] Add an effect hook to handle the API call side effect after the first render of App.  
 - [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and learn how to make the API call.
 - [ ] Using the endpoint given in the docs, fetch the data using `axios`, which is already installed in the project.
 - [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
