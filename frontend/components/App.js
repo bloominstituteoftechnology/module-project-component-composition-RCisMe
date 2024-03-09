@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Card from './Card'
 
-const URL = `http://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
+const URL = `http://localhost:9009/api/apod?api_key=DEMO_KEY`
 
 export default function App() {
 const [data, setData] = useState()
